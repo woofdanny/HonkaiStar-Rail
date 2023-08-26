@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat&family=Raleway&display=swap');
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+iframe{
+  display: block;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(109.76deg, #2a283b 36.98%, #757b85 99.95%);
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logoimg{
+  padding: 15px;
+}
+
+header{
+  background-color: #959BB6;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  color: #F9F8F7;
+  font-size: 32px;
+}
+
+.navi{
+  color: #F9F8F7;
+  font-size: 32px;
+  font-family: 'Raleway', sans-serif;
+  display: inline-flex;
+  margin-left: 25px;
+}
+
+nav{
+  margin-left: 1000px;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: #959BB6;
+}
+
+span{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #F9F8F7;
+}
+
+b {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+.path{
+  width: 984px;
+  height: 689px;
+  background-color: #F9F8F7;
+}
+
+.transition img{
+  width: 120px;
+  height: 123px;
+  margin-right: 38px;
+}
+
+.elements{
+  width: 862px;
+}
+
+.elements p {
+  color: #F9F8F7;
+  font-size: 24px;
+  display: inline-flex;
+}
+
+.stats{
+  width: 869px;
+}
+
+.stats p{
+  color: #F9F8F7;
+  font-size: 24px;
+}
+
+footer{
+  background-color: #959BB6;
+  height: 92px;
+}
+footer p{
+  color:#F9F8F7;
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+}
